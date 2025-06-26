@@ -1,0 +1,62 @@
+## 📌 Task 4: Responsive Design & Progressive Web App Basics  
+**Level:** Beginner to Intermediate
+
+---
+
+## 🎯 Objective
+
+Design and develop a responsive e-commerce platform with Progressive Web App (PWA) features using modern web technologies.
+
+---
+
+## ✅ Features Implemented
+
+### 📱 Responsive E-Commerce Website
+- Home Page with Hero Section & Featured Products
+- Product List Sections (Dresses, Tops, Earrings, Lipsticks)
+- Cart Page to view and manage selected products
+- Responsive layout using custom CSS
+- Navigation for desktop and mobile views
+
+### ⚙️ PWA Features
+- `manifest.json` file linked for installability
+- `service-worker.js` registered to enable offline caching
+- Key assets cached for offline use
+- App installable on desktop and mobile devices
+- Push notifications using the Notification API
+
+### 🧪 Lighthouse Audit
+- High scores achieved in:
+  - **Performance**
+  - **Accessibility**
+  - **PWA Compliance**
+
+---
+
+## 📁 Folder Structure
+project/
+│
+├── index.html
+├── cart.html
+├── manifest.json
+├── service-worker.js
+├── scripts/
+│ └── script.js
+├── styles/
+│ └── style.css
+└── images/
+└── promo.webp, products, features, etc.
+
+yaml
+Copy
+Edit
+
+## 📦 Deliverables
+- Responsive E-Commerce UI
+- PWA with offline support
+- Installable via `manifest.json`
+- Push Notification support
+- Lighthouse-tested performance
+
+credits & designed by Ridhi saxena
+
