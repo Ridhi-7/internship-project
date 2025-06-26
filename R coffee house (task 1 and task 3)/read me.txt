@@ -1,0 +1,102 @@
+Coffee House Landing Page — Tasks 1 & 3
+
+This repository contains a single, self‑contained project that fulfils both Task 1 (HTML, CSS & JavaScript Fundamentals) and Task 3 (JavaScript DOM Manipulation & Form Handling) of the learning series.
+
+📑 Project Overview
+
+A responsive landing page for a vintage‑style coffee shop. It demonstrates:
+
+Semantic HTML5 structure
+
+Custom CSS3 styling with animations & media queries
+
+Vanilla JavaScript for interactivity, DOM updates and client‑side form validation
+
+Note: Task 1 and Task 3 requirements are merged in this one project to avoid duplication and to show how front‑end layers work together in a real site.
+
+✨ Key Features
+
+Task 1 — HTML, CSS & JavaScript Fundamentals
+
+Feature
+
+Details
+
+Responsive layout
+
+Fluid flexbox sections, media queries for 768 px & 480 px breakpoints
+
+Animations
+
+@keyframes float on hero image, smooth transitions on hover
+
+Sticky header
+
+position: sticky keeps nav visible while scrolling
+
+Semantic markup
+
+header, section, footer, descriptive alt text
+
+Task 3 — DOM Manipulation & Form Handling
+
+Feature
+
+Implementation
+
+Mobile nav toggle
+
+// nav hide‑unhide listener in script.js toggles show class
+
+Image gallery switch
+
+Click a thumbnail → updates the main hero image src
+
+Scroll‑reveal effect
+
+Intersection Observer adds visible class on‑view
+
+Form validation
+
+Regex checks name, email, message before submit; alerts feedback
+
+Navigation Comments
+
+HTML: <!-- NAVIGATION --> comment marks the nav block for quick reference.
+
+JavaScript: Top of script.js contains // nav hide‑unhide comment explaining the menu logic.
+
+🗂️ Folder Structure
+
+📂 project‑root
+ ├─ index.html
+ ├─ styles/
+ │   └─ style.css
+ ├─ scripts/
+ │   └─ script.js
+ ├─ images/   (logos, products, shop photos)
+ └─ README.md (this file)
+
+🚀 Getting Started
+
+Clone the repo:
+
+git clone https://github.com/your‑username/coffee‑house.git
+
+Open index.html in any modern browser.
+
+No build tools required — it’s plain HTML/CSS/JS.
+
+📊 Lighthouse
+
+The page scores 90 + in Performance, Accessibility, Best‑Practices & SEO on desktop. (Run Ctrl + Shift + I → Lighthouse tab to verify.)
+
+🛠️ Tech Stack
+
+HTML5
+
+CSS3 (vanilla)
+
+JavaScript ES6
+
+credis & designed by Ridhi saxena
